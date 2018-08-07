@@ -1,7 +1,10 @@
 package tutorial.model;
 
+import org.springframework.stereotype.Component;
+
 import java.io.PrintStream;
 
+@Component
 public class SlayDragonQuest implements Quest{
 
 

@@ -3,6 +3,8 @@ package tutorial;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import tutorial.model.Knight;
 
+import java.io.PrintStream;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class Main {
         Knight knight = context.getBean(Knight.class);
         knight.embarkOnQuest();
         context.close();
+
 
 
     }

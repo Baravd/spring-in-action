@@ -1,5 +1,8 @@
 package tutorial.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BraveKnight implements Knight {
 
     private Quest quest;
